@@ -1,0 +1,21 @@
+.row{
+ 
+    padding: 20px;
+    text-align: center;
+    background-color: #c2c1f6ba;
+}
+
+.titulo{
+    font-size: 50px;
+    color:#3b3643;
+    text-shadow: 3px 3px 1px #7a00258b;
+    padding: 15px;
+}
+.circulo{
+    padding: 15px;
+}
+.filtro{
+    background-color: #c2c1f6e5;
+    background-image: url('../../../assets/binario.png');
+    background-size:auto;
+}

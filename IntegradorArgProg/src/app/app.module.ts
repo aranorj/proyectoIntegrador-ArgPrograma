@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
 import { LogoArgPComponent } from './components/logo-arg-p/logo-arg-p.component';
@@ -9,6 +10,8 @@ import { RedesComponent } from './components/redes/redes.component';
 import { BannerComponent } from './components/banner/banner.component';
 import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { TrayectoriaComponent } from './components/trayectoria/trayectoria.component';
+import { SkillsComponent } from './components/skills/skills.component';
+import { SSkillsComponent } from './components/s-skills/s-skills.component';
 
 @NgModule({
   declarations: [
@@ -18,11 +21,14 @@ import { TrayectoriaComponent } from './components/trayectoria/trayectoria.compo
     RedesComponent,
     BannerComponent,
     AcercaDeComponent,
-    TrayectoriaComponent
+    TrayectoriaComponent,
+    SkillsComponent,
+    SSkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
