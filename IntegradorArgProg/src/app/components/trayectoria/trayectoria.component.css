@@ -1,0 +1,25 @@
+.background{
+    background-image: url("../../../assets/fondoHelechos.jpg");
+    background-size: cover;
+}
+.experiencia{
+    padding: 20px;
+    background-color: #6ca7ce80;
+    margin: 0px 3%;
+    color: black;
+}
+.experiencia__container{
+    margin-left: 8.33%;
+    background-color: #C2C1F6;
+    border-radius: 30px;
+}
+
+
+.experiencia__titulo, experiencia__logo{
+    display: inline;
+    margin: 3px;
+}
+.experiencia__encabezado{
+ margin-bottom: 2%;
+ text-shadow: 0px 0px 10px #bddcf4;
+}
