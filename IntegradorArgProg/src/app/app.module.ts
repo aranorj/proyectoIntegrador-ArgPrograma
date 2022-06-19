@@ -12,6 +12,7 @@ import { AcercaDeComponent } from './components/acerca-de/acerca-de.component';
 import { TrayectoriaComponent } from './components/trayectoria/trayectoria.component';
 import { SkillsComponent } from './components/skills/skills.component';
 import { SSkillsComponent } from './components/s-skills/s-skills.component';
+import { IdiomasComponent } from './components/idiomas/idiomas.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { SSkillsComponent } from './components/s-skills/s-skills.component';
     AcercaDeComponent,
     TrayectoriaComponent,
     SkillsComponent,
-    SSkillsComponent
+    SSkillsComponent,
+    IdiomasComponent
   ],
   imports: [
     BrowserModule,

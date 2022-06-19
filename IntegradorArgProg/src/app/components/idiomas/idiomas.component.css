@@ -1,0 +1,23 @@
+.row{
+    background-image: url(../../../assets/fondoHelechos.jpg);
+    background-position: center;
+    padding: 20px;
+    text-align: center;
+    background-color: #C2C1F6;
+    
+    position: relative;
+}
+.titulo{
+    font-size: 50px;
+    color:#ffffff;
+    text-shadow: 3px 3px 1px #2325678f;
+    margin-bottom: 30px;
+}
+.decoration{
+    position: absolute;
+    height: 400px;
+    width: auto;
+    left: 36%;
+    bottom: 0;
+    z-index: 0;
+}
