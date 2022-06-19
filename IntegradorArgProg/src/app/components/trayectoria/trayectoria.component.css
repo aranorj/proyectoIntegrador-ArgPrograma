@@ -5,7 +5,8 @@
 .experiencia{
     padding: 20px;
     background-color: #25195fa9;
-    margin: 0px 3%;
+    width: 90%;
+    margin: 0px 0px;
     color: black;
 }
 .experiencia__container{

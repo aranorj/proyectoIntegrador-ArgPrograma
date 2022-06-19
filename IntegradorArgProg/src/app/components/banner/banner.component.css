@@ -1,5 +1,9 @@
 .banner{
-     height: 15vw;
-     padding: 0;
-     margin: 0;
+    width: 100%;   
+    margin: 0;
+    padding: 0;
+}
+.row{
+     margin: 0px 0px;
+     width: 100%;
 }
